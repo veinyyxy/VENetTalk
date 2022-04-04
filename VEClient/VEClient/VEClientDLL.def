@@ -1,0 +1,4 @@
+LIBRARY VEClientDLL
+	EXPORTS
+		GetClient			@1
+		ReleaseClient		@2

@@ -1,0 +1,50 @@
+﻿Build started 2015/1/27 11:12:15.
+     1>Project "E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\zlibstatic.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "zlibstatic.dir\Debug\zlibstatic.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/CMakeLists.txt
+         CMake does not need to re-run because E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8" /I"E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"zlibstatic.dir\Debug\\" /Fd"E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/Debug/zlibstaticd.pdb" /Gd /TC /analyze- /errorReport:prompt ..\adler32.c ..\compress.c ..\crc32.c ..\deflate.c ..\gzclose.c ..\gzlib.c ..\gzread.c ..\gzwrite.c ..\inflate.c ..\infback.c ..\inftrees.c ..\inffast.c ..\trees.c ..\uncompr.c ..\zutil.c  /Zm1000 
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         inflate.c
+         infback.c
+         inftrees.c
+         inffast.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\Debug\zlibstaticd.lib" /NOLOGO zlibstatic.dir\Debug\adler32.obj
+         zlibstatic.dir\Debug\compress.obj
+         zlibstatic.dir\Debug\crc32.obj
+         zlibstatic.dir\Debug\deflate.obj
+         zlibstatic.dir\Debug\gzclose.obj
+         zlibstatic.dir\Debug\gzlib.obj
+         zlibstatic.dir\Debug\gzread.obj
+         zlibstatic.dir\Debug\gzwrite.obj
+         zlibstatic.dir\Debug\inflate.obj
+         zlibstatic.dir\Debug\infback.obj
+         zlibstatic.dir\Debug\inftrees.obj
+         zlibstatic.dir\Debug\inffast.obj
+         zlibstatic.dir\Debug\trees.obj
+         zlibstatic.dir\Debug\uncompr.obj
+         zlibstatic.dir\Debug\zutil.obj
+         zlibstatic.vcxproj -> E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\Debug\zlibstaticd.lib
+       FinalizeBuildStatus:
+         Deleting file "zlibstatic.dir\Debug\zlibstatic.unsuccessfulbuild".
+         Touching "zlibstatic.dir\Debug\zlibstatic.lastbuildstate".
+     1>Done Building Project "E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\zlibstatic.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.80

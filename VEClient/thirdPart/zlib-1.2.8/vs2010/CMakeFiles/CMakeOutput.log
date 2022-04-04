@@ -1,0 +1,199 @@
+The system is: Windows - 6.1 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: CompilerIdC, Configuration: Debug Win32 ------
+1>Build started 2014/12/29 17:27:02.
+1>InitializeBuildStatus:
+1>  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CMakeCCompilerId.c
+1>Link:
+1>  CompilerIdC.vcxproj -> E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\2.8.10.2\CompilerIdC\.\CompilerIdC.exe
+1>PostBuildEvent:
+1>  CMAKE_C_COMPILER=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "Debug\CompilerIdC.unsuccessfulbuild".
+1>  Touching "Debug\CompilerIdC.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:02.83
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj.user"
+
+The C compiler identification is MSVC, found in "E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/2.8.10.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3003133846
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3003133846, Configuration: Debug Win32 ------
+1>Build started 2014/12/29 17:27:10.
+1>PrepareForBuild:
+1>  Creating directory "E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3003133846.dir\Debug\cmTryCompileExec3003133846.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3003133846.dir\Debug\\" /Fd"E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3003133846.pdb" /Gd /TC /analyze- /errorReport:prompt testCCompiler.c  /Zm1000 
+1>  
+1>  testCCompiler.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec3003133846.vcxproj -> E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3003133846.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3003133846.dir\Debug\cmTryCompileExec3003133846.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3003133846.dir\Debug\cmTryCompileExec3003133846.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:02.15
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4090205534
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4090205534, Configuration: Debug Win32 ------
+1>Build started 2014/12/29 17:27:17.
+1>PrepareForBuild:
+1>  Creating directory "E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4090205534.dir\Debug\cmTryCompileExec4090205534.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4090205534.dir\Debug\\" /Fd"E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4090205534.pdb" /Gd /TC /analyze- /errorReport:prompt "D:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"  /Zm1000 
+1>  
+1>  CMakeCCompilerABI.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec4090205534.vcxproj -> E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4090205534.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4090205534.dir\Debug\cmTryCompileExec4090205534.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4090205534.dir\Debug\cmTryCompileExec4090205534.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.29
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2967682479
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2967682479, Configuration: Debug Win32 ------
+1>Build started 2014/12/29 17:27:22.
+1>PrepareForBuild:
+1>  Creating directory "E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec2967682479.dir\Debug\cmTryCompileExec2967682479.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2967682479.dir\Debug\\" /Fd"E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2967682479.pdb" /Gd /TC /analyze- /errorReport:prompt CheckIncludeFile.c  /Zm1000 
+1>  
+1>  CheckIncludeFile.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec2967682479.vcxproj -> E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2967682479.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec2967682479.dir\Debug\cmTryCompileExec2967682479.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec2967682479.dir\Debug\cmTryCompileExec2967682479.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.28
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3839567088
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3839567088, Configuration: Debug Win32 ------
+1>Build started 2014/12/29 17:27:27.
+1>PrepareForBuild:
+1>  Creating directory "E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3839567088.dir\Debug\cmTryCompileExec3839567088.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3839567088.dir\Debug\\" /Fd"E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3839567088.pdb" /Gd /TC /analyze- /errorReport:prompt CheckIncludeFile.c  /Zm1000 
+1>  
+1>  CheckIncludeFile.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec3839567088.vcxproj -> E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3839567088.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3839567088.dir\Debug\cmTryCompileExec3839567088.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3839567088.dir\Debug\cmTryCompileExec3839567088.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.23
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4291765699
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4291765699, Configuration: Debug Win32 ------
+1>Build started 2014/12/29 17:27:32.
+1>PrepareForBuild:
+1>  Creating directory "E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4291765699.dir\Debug\cmTryCompileExec4291765699.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4291765699.dir\Debug\\" /Fd"E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4291765699.pdb" /Gd /TC /analyze- /errorReport:prompt CheckIncludeFile.c  /Zm1000 
+1>  
+1>  CheckIncludeFile.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec4291765699.vcxproj -> E:\Project\VEInstantMessage\thirdPart\zlib-1.2.8\vs2010\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4291765699.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4291765699.dir\Debug\cmTryCompileExec4291765699.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4291765699.dir\Debug\cmTryCompileExec4291765699.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.24
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+

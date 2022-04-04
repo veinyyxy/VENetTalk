@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <QTDIR>C:/Qt/4.8.5</QTDIR>
+    <CIPAS_QT>C:/Qt/4.8.5</CIPAS_QT>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(QTDIR)/include;$(QTDIR)/include/QtCore;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtOpenGL;$(IncludePath)</IncludePath>
+    <LibraryPath>$(QTDIR)/lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>qtmaind.lib;QtCored4.lib;QtGuid4.lib;QtXmld4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="QTDIR">
+      <Value>$(QTDIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CIPAS_QT">
+      <Value>$(CIPAS_QT)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

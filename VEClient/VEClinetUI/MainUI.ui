@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientMainUI</class>
+ <widget class="QMainWindow" name="ClientMainUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>199</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VE_客户端</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>199</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="UserMenu">
+    <property name="title">
+     <string>用户(&amp;U)</string>
+    </property>
+    <widget class="QMenu" name="menu">
+     <property name="title">
+      <string>我的状态</string>
+     </property>
+     <addaction name="separator"/>
+     <addaction name="action_3"/>
+     <addaction name="action_4"/>
+     <addaction name="action_5"/>
+    </widget>
+    <addaction name="action_L"/>
+    <addaction name="action_O"/>
+    <addaction name="menu"/>
+    <addaction name="action_6"/>
+    <addaction name="action_7"/>
+    <addaction name="separator"/>
+    <addaction name="action_Q"/>
+   </widget>
+   <widget class="QMenu" name="OperatorMenu">
+    <property name="title">
+     <string>操作(A)</string>
+    </property>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>自定义分组</string>
+     </property>
+     <addaction name="action_2"/>
+     <addaction name="action_8"/>
+    </widget>
+    <addaction name="action_9"/>
+    <addaction name="action_10"/>
+    <addaction name="action"/>
+    <addaction name="action_11"/>
+    <addaction name="menu_2"/>
+   </widget>
+   <widget class="QMenu" name="HelpMenu">
+    <property name="title">
+     <string>帮助(&amp;H)</string>
+    </property>
+    <addaction name="action_B"/>
+    <addaction name="separator"/>
+    <addaction name="action_13"/>
+   </widget>
+   <addaction name="UserMenu"/>
+   <addaction name="OperatorMenu"/>
+   <addaction name="HelpMenu"/>
+  </widget>
+  <action name="action_L">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>登录(&amp;L)</string>
+   </property>
+  </action>
+  <action name="action_O">
+   <property name="text">
+    <string>注销(&amp;O)</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>在线</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>隐身</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>离开</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>个人设置(&amp;P)...</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>系统设置(&amp;S)...</string>
+   </property>
+  </action>
+  <action name="action_Q">
+   <property name="text">
+    <string>退出(Q)...</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>发送及时消息(&amp;M)...</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>发送文件(&amp;F)...</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>发送广播消息(&amp;T)...</string>
+   </property>
+  </action>
+  <action name="action_B">
+   <property name="text">
+    <string>帮助(&amp;H)</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>关于...</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>添加部门分组...</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>添加联系人分组...</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>发送文件夹(&amp;O)...</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/ALL_BUILD.dir
+E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/ZERO_CHECK.dir
+E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/example.dir
+E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/minigzip.dir
+E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/zlib.dir
+E:/Project/VEInstantMessage/thirdPart/zlib-1.2.8/vs2010/CMakeFiles/zlibstatic.dir

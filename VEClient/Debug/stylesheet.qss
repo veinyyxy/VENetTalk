@@ -1,0 +1,169 @@
+QWidget
+{
+	background:white;
+}
+
+QWidget#LoginUI
+{
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background: qradialgradient(
+		cx: 0.5, cy: -1.8,
+		fx: 0.5, fy: 0,
+		radius: 2, 
+		stop: 0 #FFFFFF,
+		stop: 1 #CDDBE6);
+	font: bold;
+}
+
+QMenuBar
+{
+	background: #76BBF2
+}
+
+QMenuBar::item
+{
+	background: #76BBF2
+}
+
+QMenu
+{
+	background: #76BBF2
+}
+
+QLabel {
+ background: transparent;
+ color: black;
+ border : 0px;
+}
+
+QToolBox::tab {
+    background: #B4D2DA;
+    color: black;
+}
+
+QToolBox::tab:selected {
+    font: bold;
+    color: black;
+    background: #B4D2DA;
+}
+
+QTreeWidget{
+	background:white;
+}
+
+.QPushButton{
+  color: black;
+ border-radius: 5px;
+ padding: 1px;
+ background: qlineargradient(
+   x1:0, y1:0, x2:0, y2:1,
+   stop:0 #FDFEFF,
+   stop:1 #E3ECF3
+ );
+ min-height: 24px;
+ border: 2px solid #A5ADBA
+}
+
+.QPushButton:pressed {
+background: qlineargradient(
+  x1:0, y1:0, x2:0, y2:1,
+  stop:0 #E3ECF3,
+  stop:1 #FDFEFF
+ );
+ color: black;
+}
+
+QPushButton#search_pushButton
+{
+	background: transparent;
+	border: 0px;
+}
+
+QLineEdit {
+ background: qlineargradient(
+  x1:0, y1:0, x2:0, y2:1,
+  stop:0 gray,
+  stop: 0.2 white
+  stop:1 white
+ );
+ border-radius: 1px;
+ border: 1px solid #6499CB;
+ min-height: 22px;
+ color: black;
+}
+
+QCheckBox {
+	background: transparent;
+    color:  black;
+}
+
+QCommandLinkButton
+{
+	background: transparent;
+	color:blue;
+}
+
+QGridLayout
+{
+	background: black;
+}
+
+QFrame#FrameLayout
+{
+	background: #5475EE;
+}
+
+QFrame#SearchFrameLayout
+{
+	background: #5475EE;
+}
+
+QToolButton
+{
+	background: transparent;
+}
+
+QPushButton#search_pushButton
+{
+	background: transparent;
+}
+
+QTabWidget
+{
+	background: #E9F0F6;
+}
+
+QFrame#MainTab
+{
+	background: #CDDBE6;
+}
+
+ QTabBar::tab {
+     background: #E9F0F6;
+     border: 1px solid #C4C4C3;
+     border-bottom-color: #C2C7CB;
+     min-width: 8ex;
+     padding: 5px;
+ }
+
+ QTabBar::tab:selected, QTabBar::tab:hover {
+     background: white;
+ }
+
+ QTabBar::tab:selected {
+     border-color: white;
+     border-bottom-color: white;
+	 border-left: 1px solid #C2C7CB;
+	 border-top: 1px solid #C2C7CB;
+	 border-bottom: 1px solid #C2C7CB;
+ }
+
+ QTabBar::tab:!selected {
+     margin-top: 0px;
+ }
+
+QWidget#centralwidget
+{
+	background: #CDDBE6;
+}

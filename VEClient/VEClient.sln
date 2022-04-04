@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VEClient", "VEClient\VEClient.vcxproj", "{54247AD0-35C7-45B3-AB9B-BFB4B6E77E30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VEClientUI", "VEClinetUI\VEClinetUI.vcxproj", "{1007BFE1-6CCE-4633-8493-CC7CC4565428}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C59A5FD6-A4F4-498A-A191-FA2E7BD67513} = {C59A5FD6-A4F4-498A-A191-FA2E7BD67513}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VEClientDLL", "VEClient\VEClientDLL.vcxproj", "{C59A5FD6-A4F4-498A-A191-FA2E7BD67513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54247AD0-35C7-45B3-AB9B-BFB4B6E77E30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54247AD0-35C7-45B3-AB9B-BFB4B6E77E30}.Debug|Win32.Build.0 = Debug|Win32
+		{54247AD0-35C7-45B3-AB9B-BFB4B6E77E30}.Release|Win32.ActiveCfg = Release|Win32
+		{54247AD0-35C7-45B3-AB9B-BFB4B6E77E30}.Release|Win32.Build.0 = Release|Win32
+		{1007BFE1-6CCE-4633-8493-CC7CC4565428}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1007BFE1-6CCE-4633-8493-CC7CC4565428}.Debug|Win32.Build.0 = Debug|Win32
+		{1007BFE1-6CCE-4633-8493-CC7CC4565428}.Release|Win32.ActiveCfg = Release|Win32
+		{1007BFE1-6CCE-4633-8493-CC7CC4565428}.Release|Win32.Build.0 = Release|Win32
+		{C59A5FD6-A4F4-498A-A191-FA2E7BD67513}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C59A5FD6-A4F4-498A-A191-FA2E7BD67513}.Debug|Win32.Build.0 = Debug|Win32
+		{C59A5FD6-A4F4-498A-A191-FA2E7BD67513}.Release|Win32.ActiveCfg = Release|Win32
+		{C59A5FD6-A4F4-498A-A191-FA2E7BD67513}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

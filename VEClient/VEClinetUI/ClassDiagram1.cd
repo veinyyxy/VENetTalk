@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ColorLayout" Collapsed="true">
+    <Position X="41" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColorLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroupAction" Collapsed="true">
+    <Position X="21.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModifyCustomGroupActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddPeopleGroupAction" Collapsed="true">
+    <Position X="16.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModifyCustomGroupActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddGroupAction" Collapsed="true">
+    <Position X="16.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModifyCustomGroupActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UptGroupAction" Collapsed="true">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModifyCustomGroupActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DelGroupAction" Collapsed="true">
+    <Position X="19.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModifyCustomGroupActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModifyGroupContentAction" Collapsed="true">
+    <Position X="16.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAQAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModifyCustomGroupActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyActionInterface" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>MyActionInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SendFileAction" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAQAAAAAAAAIBAQAAAAAAAAAA=</HashCode>
+      <FileName>OperateActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SendMessageAction" Collapsed="true">
+    <Position X="18.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperateActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerConfigDialog" Collapsed="true">
+    <Position X="39.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>ServerConfigDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetStateInterface" Collapsed="true">
+    <Position X="41" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>SetStateActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetOfflineStateAction" Collapsed="true">
+    <Position X="30" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SetStateActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetOnlineStateAction" Collapsed="true">
+    <Position X="36.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SetStateActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetAwayStateAction" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SetStateActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetHideStateAction" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SetStateActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginAction" Collapsed="true">
+    <Position X="25.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAAQAA=</HashCode>
+      <FileName>UserActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetUserInfoAction" Collapsed="true">
+    <Position X="32.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserActions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserInformationDialog" Collapsed="true">
+    <Position X="42.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>UserInformationDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientMainUI" Collapsed="true">
+    <Position X="39.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sjEALcQ4QodJigGRi8AK1SRCKGwWMSgAg6BwhYkhlKk=</HashCode>
+      <FileName>ClientMainUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogoutAction" Collapsed="true">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientMainUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginUI" Collapsed="true">
+    <Position X="42.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAIgAAAAAAAA=</HashCode>
+      <FileName>LoginUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainTab" Collapsed="true">
+    <Position X="39.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAIAAAACAAAAAAAAAAAACAAAAABAAABAAAIAAAAA=</HashCode>
+      <FileName>MainTab.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageUI" Collapsed="true">
+    <Position X="41" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAQBARIABQAwAAAAAABBAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>MessageUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModifyGroupNodeDialog" Collapsed="true">
+    <Position X="42.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAAgAAAAAAAAIAAAAQQAAQAAAAAMAAAAAAAABAAA=</HashCode>
+      <FileName>ModifyGroupNodeDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_LoginUI" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAABAAABAIAAAhAAQAAQIAACAAQAIAAAAAAAAEACBAA=</HashCode>
+      <FileName>GeneratedFiles\ui_LoginUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_MainTab" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAKHTAAABAIAEUAAgAACAAIQEIIAAAIAABEAAlAA=</HashCode>
+      <FileName>GeneratedFiles\ui_MainTab.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_ClientMainUI" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABoAAAEAABGAAACAQQQhAAARIIAAAAAiBAYAAAAE=</HashCode>
+      <FileName>GeneratedFiles\ui_MainUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_MessageUI" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAABoABAEAAAEAICCBQQQgIAAQIIAAAAIAAAQAAANE=</HashCode>
+      <FileName>GeneratedFiles\ui_MessageUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_ModifyGroupNodeDialog" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgBAAIAAAoAAAAAACAAQAAAQIAQAIAACAIAABMKABAI=</HashCode>
+      <FileName>GeneratedFiles\ui_ModefiyGroupNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_UserInfoDialog" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TwMAAAICAAAIABAAAAAAAAAAiAQAIAAAACAAAAAAABA=</HashCode>
+      <FileName>GeneratedFiles\ui_UserInformation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::LoginUI" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_LoginUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::MainTab" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_MainTab.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::ClientMainUI" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_MainUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::MessageUI" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_MessageUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::ModifyGroupNodeDialog" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_ModefiyGroupNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::UserInfoDialog" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_UserInformation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="NODE_PROPERTY" Collapsed="true">
+    <Position X="39.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>stdafx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="P_NODE_PROPERTY" Collapsed="true">
+    <Position X="41" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>stdafx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>

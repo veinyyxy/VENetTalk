@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1007BFE1-6CCE-4633-8493-CC7CC4565428}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VEClinetUI</RootNamespace>
+    <ProjectName>VEClientUI</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\QTDIRDebug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>./GeneratedFiles;../VEClient;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OutDir);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>VEClientDLL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="LoginUI.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="MainUI.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="MainTab.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="MessageUI.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="ModefiyGroupNode.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+    </CustomBuild>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+    <CustomBuild Include="SetServer.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+    </CustomBuild>
+    <None Include="small.ico" />
+    <CustomBuild Include="stylesheet.qrc">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath);stdafx.h;%(AdditionalInputs)</AdditionalInputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <CustomBuild Include="UserInformation.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+    </CustomBuild>
+    <None Include="VEClinetUI.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ClientMainUI.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"   -DUNICODE -DWIN32 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DGEOSONTHEOSG_LIB -DGISDBENGINE_LIB -DIDP_CONTROL_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DGISEXTEND_IMPORT -DCDATAELEMENT_LIB -DTMUI_LIB -DGRAPHICSCONTROLER_LIB -D_WINDLL  "-I." "-I.\GeneratedFiles" "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtXml" "-I." "-I$(QTDIR)\include\QtSql" "-I$(QTDIR)\include\QtOpenGL" "-I.\..\GraphicsControler\GeneratedFiles\Release" "-I.\..\GraphicsControler\GeneratedFiles\Debug" "-I.\..\RadarStructDataProvider" "-I.\..\RadarSingleDataProvider" "-I.\..\RadarMosaicDataProvider" "-I$(GEOS_HOME)\include" "-I$(GEOS_HOME)\capi" "-I." "-I$(OSG_EARTH_INCLUDE)\." "-I$(OSG_INCLUDE)\." "-I$(PROJ4_INCLUDE)\." "-I$(GEOS_INCLUDE)\." "-I$(BOOST_INCLUDE)\." "-I$(GDAL_HOME)\include" "-I." "-I." "-I." "%(Filename)%(Extension)" -fstdafx.h -f..\%(Filename)%(Extension) -fMessageCallBack.h -o ".\GeneratedFiles\moc_%(Filename).cpp"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="ColorLayout.h" />
+    <ClInclude Include="GeneratedFiles\ui_LoginUI.h" />
+    <ClInclude Include="GeneratedFiles\ui_MainTab.h" />
+    <ClInclude Include="GeneratedFiles\ui_MainUI.h" />
+    <ClInclude Include="GeneratedFiles\ui_MessageUI.h" />
+    <CustomBuild Include="LoginUI.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"   -DUNICODE -DWIN32 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DGEOSONTHEOSG_LIB -DGISDBENGINE_LIB -DIDP_CONTROL_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DGISEXTEND_IMPORT -DCDATAELEMENT_LIB -DTMUI_LIB -DGRAPHICSCONTROLER_LIB -D_WINDLL  "-I." "-I.\GeneratedFiles" "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtXml" "-I." "-I$(QTDIR)\include\QtSql" "-I$(QTDIR)\include\QtOpenGL" "-I.\..\GraphicsControler\GeneratedFiles\Release" "-I.\..\GraphicsControler\GeneratedFiles\Debug" "-I.\..\RadarStructDataProvider" "-I.\..\RadarSingleDataProvider" "-I.\..\RadarMosaicDataProvider" "-I$(GEOS_HOME)\include" "-I$(GEOS_HOME)\capi" "-I." "-I$(OSG_EARTH_INCLUDE)\." "-I$(OSG_INCLUDE)\." "-I$(PROJ4_INCLUDE)\." "-I$(GEOS_INCLUDE)\." "-I$(BOOST_INCLUDE)\." "-I$(GDAL_HOME)\include" "-I." "-I." "-I." "%(Filename)%(Extension)" -fstdafx.h -f..\%(Filename)%(Extension) -o ".\GeneratedFiles\moc_%(Filename).cpp"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="MainTab.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"   -DUNICODE -DWIN32 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DGEOSONTHEOSG_LIB -DGISDBENGINE_LIB -DIDP_CONTROL_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DGISEXTEND_IMPORT -DCDATAELEMENT_LIB -DTMUI_LIB -DGRAPHICSCONTROLER_LIB -D_WINDLL  "-I." "-I.\GeneratedFiles" "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtXml" "-I." "-I$(QTDIR)\include\QtSql" "-I$(QTDIR)\include\QtOpenGL" "-I.\..\GraphicsControler\GeneratedFiles\Release" "-I.\..\GraphicsControler\GeneratedFiles\Debug" "-I.\..\RadarStructDataProvider" "-I.\..\RadarSingleDataProvider" "-I.\..\RadarMosaicDataProvider" "-I$(GEOS_HOME)\include" "-I$(GEOS_HOME)\capi" "-I." "-I$(OSG_EARTH_INCLUDE)\." "-I$(OSG_INCLUDE)\." "-I$(PROJ4_INCLUDE)\." "-I$(GEOS_INCLUDE)\." "-I$(BOOST_INCLUDE)\." "-I$(GDAL_HOME)\include" "-I." "-I." "-I." "%(Filename)%(Extension)" -fstdafx.h -f..\%(Filename)%(Extension) -o ".\GeneratedFiles\moc_%(Filename).cpp"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="MessageUI.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"   -DUNICODE -DWIN32 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DGEOSONTHEOSG_LIB -DGISDBENGINE_LIB -DIDP_CONTROL_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DGISEXTEND_IMPORT -DCDATAELEMENT_LIB -DTMUI_LIB -DGRAPHICSCONTROLER_LIB -D_WINDLL  "-I." "-I.\GeneratedFiles" "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtXml" "-I." "-I$(QTDIR)\include\QtSql" "-I$(QTDIR)\include\QtOpenGL" "-I.\..\GraphicsControler\GeneratedFiles\Release" "-I.\..\GraphicsControler\GeneratedFiles\Debug" "-I.\..\RadarStructDataProvider" "-I.\..\RadarSingleDataProvider" "-I.\..\RadarMosaicDataProvider" "-I$(GEOS_HOME)\include" "-I$(GEOS_HOME)\capi" "-I." "-I$(OSG_EARTH_INCLUDE)\." "-I$(OSG_INCLUDE)\." "-I$(PROJ4_INCLUDE)\." "-I$(GEOS_INCLUDE)\." "-I$(BOOST_INCLUDE)\." "-I$(GDAL_HOME)\include" "-I." "-I." "-I." "%(Filename)%(Extension)" -fstdafx.h -f..\%(Filename)%(Extension) -o ".\GeneratedFiles\moc_%(Filename).cpp"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="GeneratedFiles\ui_ModefiyGroupNode.h" />
+    <ClInclude Include="GeneratedFiles\ui_UserInformation.h" />
+    <ClInclude Include="ModifyCustomGroupActions.h" />
+    <CustomBuild Include="ModifyGroupNodeDialog.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"   -DUNICODE -DWIN32 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_XML_LIB -DGEOSONTHEOSG_LIB -DGISDBENGINE_LIB -DIDP_CONTROL_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DGISEXTEND_IMPORT -DCDATAELEMENT_LIB -DTMUI_LIB -DGRAPHICSCONTROLER_LIB -D_WINDLL  "-I." "-I.\GeneratedFiles" "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\qtmain" "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtXml" "-I." "-I$(QTDIR)\include\QtSql" "-I$(QTDIR)\include\QtOpenGL" "-I.\..\GraphicsControler\GeneratedFiles\Release" "-I.\..\GraphicsControler\GeneratedFiles\Debug" "-I.\..\RadarStructDataProvider" "-I.\..\RadarSingleDataProvider" "-I.\..\RadarMosaicDataProvider" "-I$(GEOS_HOME)\include" "-I$(GEOS_HOME)\capi" "-I." "-I$(OSG_EARTH_INCLUDE)\." "-I$(OSG_INCLUDE)\." "-I$(PROJ4_INCLUDE)\." "-I$(GEOS_INCLUDE)\." "-I$(BOOST_INCLUDE)\." "-I$(GDAL_HOME)\include" "-I." "-I." "-I." "%(Filename)%(Extension)" -fstdafx.h -f..\%(Filename)%(Extension) -o ".\GeneratedFiles\moc_%(Filename).cpp"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="MyActionInterface.h" />
+    <ClInclude Include="OperateActions.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ServerConfigDialog.h" />
+    <ClInclude Include="SetStateActions.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UserActions.h" />
+    <ClInclude Include="UserInformationDialog.h" />
+    <ClInclude Include="VEClientUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientMainUI.cpp" />
+    <ClCompile Include="ColorLayout.cpp" />
+    <ClCompile Include="GeneratedFiles\moc_ClientMainUI.cpp" />
+    <ClCompile Include="GeneratedFiles\moc_LoginUI.cpp" />
+    <ClCompile Include="GeneratedFiles\moc_MainTab.cpp" />
+    <ClCompile Include="GeneratedFiles\moc_MessageUI.cpp" />
+    <ClCompile Include="GeneratedFiles\moc_ModifyGroupNodeDialog.cpp" />
+    <ClCompile Include="GeneratedFiles\qrc_stylesheet.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="LoginUI.cpp" />
+    <ClCompile Include="MainTab.cpp" />
+    <ClCompile Include="MessageUI.cpp" />
+    <ClCompile Include="ModifyCustomGroupActions.cpp" />
+    <ClCompile Include="ModifyGroupNodeDialog.cpp" />
+    <ClCompile Include="MyActionInterface.cpp" />
+    <ClCompile Include="OperateActions.cpp" />
+    <ClCompile Include="ServerConfigDialog.cpp" />
+    <ClCompile Include="SetStateActions.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UserActions.cpp" />
+    <ClCompile Include="UserInformationDialog.cpp" />
+    <ClCompile Include="VEClientUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VEClinetUI.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

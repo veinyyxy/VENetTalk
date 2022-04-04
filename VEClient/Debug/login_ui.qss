@@ -1,0 +1,12 @@
+﻿LoginUI
+{
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background: qradialgradient(
+		cx: 0.5, cy: -1.8,
+		fx: 0.5, fy: 0,
+		radius: 2, 
+		stop: 0 #FFFFFF,
+		stop: 1 #CDDBE6);
+	font: bold;
+}

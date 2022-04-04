@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Client" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgAQAAAAAcAAEAQAAAEIAAAIAAACAAAESwABAAEI=</HashCode>
+      <FileName>Client.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientContext" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AkAAAAQAAAABAIgQARAgQQEAAAQGAgIgABEaAQJAEQA=</HashCode>
+      <FileName>ClientContext.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientUdp" Collapsed="true">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <InheritanceLine Type="Client">
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.223" Y="0.153" Height="0.181" Width="0.5" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAQAAgQAcAgMAQAAAEIAABIAAACAAAESwgBAAEI=</HashCode>
+      <FileName>ClientUdp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileBlockMirror" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAJAACQAAAAAAAABAAAAgAAAAQEAABAAIAAAAAAA=</HashCode>
+      <FileName>FileBlockMirror.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MakeDirToZip" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAACEAAAAAAAAAYAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>MakeDirToZip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageCallback" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="5.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgEABQAAAAAIAAABAAACACAAACQAAAAAgAAQAAAAEAA=</HashCode>
+      <FileName>messagecallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessagePacker" Collapsed="true">
+    <Position X="11" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAQJACACAQAAAAAAACAAAAAEAABAAAAEAAAAAAYAASA=</HashCode>
+      <FileName>MessagePacker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageParser" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAEAAAAAFABAAABAAAAAJAEAAACAgQEEgwoAAAY=</HashCode>
+      <FileName>MessageParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReceiverCallback" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Receiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Receiver" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQDAAAAIAIAAAAAAAAAAAAAAAgAEQAgggAQAAAAAFBA=</HashCode>
+      <FileName>Receiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RecieveFileThread" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAEAAAAAAAAEAIAAAAAAAAQAAAAAAAAAAIAAA=</HashCode>
+      <FileName>RecieveFileThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReceiverThread" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAACAAQiAAAAAAAAAAAAAAAIEEEgIIIAA=</HashCode>
+      <FileName>ReciverThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sender" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAAAAgIAAAAgAAAAAAAgAAAQgAgABAAAAIgAA=</HashCode>
+      <FileName>Sender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SenderThread" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAggEIAAA=</HashCode>
+      <FileName>SenderThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SendFileThread" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAgABAAAIAAACiAEIAAA=</HashCode>
+      <FileName>SendFileThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WriteFileThread" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="WriteFileThread::__unnamed_enum_06d2_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WriteFileThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="WriteFileThread::RECEIVE_FILE_DISCRIBE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WriteFileThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="WriteFileThread::P_RECEIVE_FILE_DISCRIBE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WriteFileThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="WriteFileThread::____file_describe_____" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WriteFileThread.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAAAAIAAAAAAAAAAAAAgEAAAAIAAAACACIAAA=</HashCode>
+      <FileName>WriteFileThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="message_header" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACgAAQAAABAAAAAAAAAAAAAABIAAEAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="heartbeat">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="user_list" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAIAAAAAAgA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="node_data" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAQAAAAAAAAAAAAgAAAAQAACAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="login" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="login_reply" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="send_message" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAABAEAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="send_message_reply" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="logout" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="logout_reply" Collapsed="true">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="user_state" Collapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="user_state_list" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="user_state_request" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="set_user_state" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="set_user_state_reply" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="send_file_block" Collapsed="true">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAACAAAAAAAAEAAAAhAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="send_file_block_addition" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAgACAAAAAAAAEAAAABAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="send_file_reqest" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAADAAAAAAAAAAAAEAAAAhAAAEQAAAAAAAABA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="send_file_request_reply" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAADAAAAAAAgAAAAEAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="custom_group_info" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAABAAAAAAAAAAAAAAJABAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="custom_groups" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="modify_custom_group" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="modify_custom_group_node" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAIABAAAAAAAAAAAIA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="custom_group_reply" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="nodeid_to_account" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAEAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="user_information" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAEAAAAABAAIEAAAgAQAAgAAAAgA=</HashCode>
+      <FileName>MessageProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
